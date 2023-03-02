@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Assignment1 {
+class Assignment1_2 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.print("Enter a, b, c, d, e, f: ");

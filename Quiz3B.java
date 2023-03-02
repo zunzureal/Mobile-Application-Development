@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-public class PreQuiz3B{
+public class Quiz3B{
   public static void main(String[] args){
     int row , col , i , j , fivesix = 0 , threeeight = 0 , sum = 0 ;
     Scanner Q3 = new Scanner(System.in);

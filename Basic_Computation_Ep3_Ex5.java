@@ -4,15 +4,15 @@ import javax.swing.JOptionPane;
 public class Basic_Computation_Ep3_Ex5 {
  
     public static void main(String[] args) {
-        float i;
+        int i;
         String amountstudent = JOptionPane.showInputDialog("Enter the number of total student:");
-        float totalstudent = Float.parseFloat(amountstudent);
-        float[] array = new float[totalstudent];
+        int totalstudent = Integer.parseInt(amountstudent);
+        int[] array = new int[totalstudent];
  
         for (i = 0; i < totalstudent; i++) {
             String numberofscore = JOptionPane.showInputDialog("Enter the score student no. " + (i+1));
-            Float avgscore = Float.parseFloat(numberofscore);
-            array[i] = avgscore;
+            float avgscore = Float.parseFloat(numberofscore);
+            array[i] = (int) avgscore;
  
         }
  
