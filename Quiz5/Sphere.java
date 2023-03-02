@@ -1,5 +1,3 @@
-package Quiz5;
-
 public class Sphere {
     public static final double SpherePI = 3.14;
     private double radius;
