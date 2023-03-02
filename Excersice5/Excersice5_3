@@ -1,0 +1,20 @@
++--------------------------------------+
+|                 Fan                  |
++--------------------------------------+
+| +SLOW: int = 1                       |
+| +MEDIUM: int = 2                     |
+| +FAST: int = 3                       |
+| -speed: int = SLOW                   |
+| -on: boolean = false                 |
+| -radius: double = 5.0                |
+| -color: String = "white"             |
++--------------------------------------+
+| +Fan()                               |
+| +getSpeed(): int                     |
+| +setSpeed(speed: int): void          |
+| +isOn(): boolean                     |
+| +setOn(trueOrFalse: boolean): void   |
+| +getRadius(): double                 |
+| +setRadius(radius: double): void     |
+| +getColor(): String                  |
++--------------------------------------+
