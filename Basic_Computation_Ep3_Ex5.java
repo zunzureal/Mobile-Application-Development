@@ -17,7 +17,7 @@ public class Basic_Computation_Ep3_Ex5 {
         }
  
         float length = array.length;
- 
+        System.out.print(length);
         float sum = 0;
  
         for (i = 0; i < array.length; i++) {
