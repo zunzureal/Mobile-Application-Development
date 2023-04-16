@@ -1,11 +1,11 @@
-public class TV {
+public class TV2 {
     private int channel;
     private int volume;
     private boolean on;
     private int maxChannel;
     private int maxVolume;
 
-    public TV() {
+    public TV2() {
         this.channel = 1;
         this.volume = 0;
         this.on = false;
@@ -105,7 +105,7 @@ public class TV {
 
         public static void main(String[] args)
         {
-            TV tv1 = new TV();
+            TV2 tv1 = new TV2();
             tv1.turnOn();
             tv1.setChannel(30);
             tv1.setVolume(3);
@@ -114,7 +114,7 @@ public class TV {
             System.out.println("\tChannel: "+ tv1.getChannel());
             System.out.println("\tChannel: "+ tv1.getVolume());
 
-            TV tv2 = new TV();
+            TV2 tv2 = new TV2();
             tv2.setMaxChannel(120);
             tv2.setMaxVolume(7);
             tv2.turnOn();
@@ -123,7 +123,7 @@ public class TV {
             tv2.volumeUp();
             System.out.println("tv2 State of: \n"+ tv2.toString());
 
-            TV tv3 = new TV();
+            TV2 tv3 = new TV2();
             tv3.setMaxChannel(3);
             tv3.turnOn();
             tv3.channelUp();
@@ -133,7 +133,7 @@ public class TV {
             System.out.println("tv3:");
             System.out.println("\tchannel: "+ tv3.getChannel());
 
-            TV tv4 = new TV();
+            TV2 tv4 = new TV2();
             tv4.setVolume(5);
             tv4.turnOn();
             tv4.volumeDown();
