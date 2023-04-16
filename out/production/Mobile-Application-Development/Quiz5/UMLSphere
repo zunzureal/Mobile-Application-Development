@@ -1,0 +1,14 @@
++-----------------------+
+|       Sphere          |
++-----------------------+
+| +<<constant>> SpherePI: double = 3.14 |
+| - radius: double      |
++-----------------------+
+| + Sphere()            |
+| + Sphere(r: double)   |
+| + getSphereVolume(): double |
+| + getRadius(): double |
+| + getSphereSurface(): double |
+| + getSphereMiddleCircumference(): double |
+| + printSphere(): void |
++-----------------------+

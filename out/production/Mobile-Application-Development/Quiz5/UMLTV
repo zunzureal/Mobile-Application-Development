@@ -1,0 +1,29 @@
++-----------------------+
+|       TV              |
++-----------------------+
+| -channel: int         | //current channel (1 to maxChannel)
+| -volume: int          | //current volume (0 to maxVolume)
+| -on: boolean          | //indicates whether this TV is on/off
+| -maxChannel: int      |
+| -maxVolume: int       |
++-----------------------+
+| + TV()                | //default constructor. All values are 1 and the TV is off (false)
+| + getChannel(): int   |
+| + getVolume(): int    |
+| + isOn(): boolean     |
+| + getMaxChannel(): int|
+| + getMaxVolume(): int |
+|                       |
+| + setChannel(someChannel: int): void | //if on, only allow values from 1 to maxChannel
+| + setVolume(someVolume: int): void | //if on, only allow values from 0 to maxVolume
+| + setMaxChannel(maxC : int): void |
+| + setMaxVolume(maxVol: int): void |
+|                       |
+| + turnOn(): void      | //sets on to true
+| + turnOff(): void     | //sets on to false
+| + channelUp(): void   | //increase channel by 1 if on, rolls to 1 after maximum
+| + channelDown(): void | //decreases channel by 1 if on, rolls to maximum after 1
+| + volumeUp(): void    | //increase the volume by 1 if on and less than maximum
+| + volumeDown(): void  | //decrease volume by 1 if on and greater than 0
+| + toString(): String  | //returns the current state(instance variable values)
++-----------------------+
